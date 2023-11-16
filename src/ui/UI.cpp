@@ -5,6 +5,7 @@ UI::UI(GLFWwindow* window) {
   // Setup imgui
   IMGUI_CHECKVERSION();
   ImGui::CreateContext();
+
   ImGuiIO &io = ImGui::GetIO();(void)io;
   ImGui::GetIO().ConfigFlags |= ImGuiConfigFlags_DockingEnable;
   ImGui::PushStyleVar(ImGuiStyleVar_WindowRounding, 8.0f);
@@ -13,8 +14,8 @@ UI::UI(GLFWwindow* window) {
   ImGui::PushStyleVar(ImGuiStyleVar_GrabRounding, 8.0f);
   ImGui::PushStyleVar(ImGuiStyleVar_WindowBorderSize, 0.0f);
 
-  // Imgui style
-  ImGui::StyleColorsDark();
+  ImGuiStyle& style = ImGui::GetStyle();
+  style.Colors[ImGuiCol_WindowBg] = ImVec4(0.0f, 0.0f, 0.0f, 1.0f);
 
   ImGui_ImplGlfw_InitForOpenGL(window, true);
   ImGui_ImplOpenGL3_Init("#version 330 core");

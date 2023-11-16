@@ -75,3 +75,6 @@ gnome
 sudo pacman -S gnome
 cd Projects/c++/hengine
 vim
+cd Projects/c++
+cd hengine
+vim

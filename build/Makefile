@@ -129,461 +129,461 @@ engine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/build
 .PHONY : engine/fast
 
-src/UI.o: src/UI.cpp.o
-.PHONY : src/UI.o
+src/core/camera.o: src/core/camera.cpp.o
+.PHONY : src/core/camera.o
 
 # target to build an object file
-src/UI.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/UI.cpp.o
-.PHONY : src/UI.cpp.o
+src/core/camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/camera.cpp.o
+.PHONY : src/core/camera.cpp.o
 
-src/UI.i: src/UI.cpp.i
-.PHONY : src/UI.i
+src/core/camera.i: src/core/camera.cpp.i
+.PHONY : src/core/camera.i
 
 # target to preprocess a source file
-src/UI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/UI.cpp.i
-.PHONY : src/UI.cpp.i
+src/core/camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/camera.cpp.i
+.PHONY : src/core/camera.cpp.i
 
-src/UI.s: src/UI.cpp.s
-.PHONY : src/UI.s
+src/core/camera.s: src/core/camera.cpp.s
+.PHONY : src/core/camera.s
 
 # target to generate assembly for a file
-src/UI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/UI.cpp.s
-.PHONY : src/UI.cpp.s
+src/core/camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/camera.cpp.s
+.PHONY : src/core/camera.cpp.s
 
-src/camera.o: src/camera.cpp.o
-.PHONY : src/camera.o
+src/core/engine.o: src/core/engine.cpp.o
+.PHONY : src/core/engine.o
 
 # target to build an object file
-src/camera.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/camera.cpp.o
-.PHONY : src/camera.cpp.o
+src/core/engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/engine.cpp.o
+.PHONY : src/core/engine.cpp.o
 
-src/camera.i: src/camera.cpp.i
-.PHONY : src/camera.i
+src/core/engine.i: src/core/engine.cpp.i
+.PHONY : src/core/engine.i
 
 # target to preprocess a source file
-src/camera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/camera.cpp.i
-.PHONY : src/camera.cpp.i
+src/core/engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/engine.cpp.i
+.PHONY : src/core/engine.cpp.i
 
-src/camera.s: src/camera.cpp.s
-.PHONY : src/camera.s
+src/core/engine.s: src/core/engine.cpp.s
+.PHONY : src/core/engine.s
 
 # target to generate assembly for a file
-src/camera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/camera.cpp.s
-.PHONY : src/camera.cpp.s
+src/core/engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/engine.cpp.s
+.PHONY : src/core/engine.cpp.s
 
-src/engine.o: src/engine.cpp.o
-.PHONY : src/engine.o
+src/core/gameObject.o: src/core/gameObject.cpp.o
+.PHONY : src/core/gameObject.o
 
 # target to build an object file
-src/engine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/engine.cpp.o
-.PHONY : src/engine.cpp.o
+src/core/gameObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/gameObject.cpp.o
+.PHONY : src/core/gameObject.cpp.o
 
-src/engine.i: src/engine.cpp.i
-.PHONY : src/engine.i
+src/core/gameObject.i: src/core/gameObject.cpp.i
+.PHONY : src/core/gameObject.i
 
 # target to preprocess a source file
-src/engine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/engine.cpp.i
-.PHONY : src/engine.cpp.i
+src/core/gameObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/gameObject.cpp.i
+.PHONY : src/core/gameObject.cpp.i
 
-src/engine.s: src/engine.cpp.s
-.PHONY : src/engine.s
+src/core/gameObject.s: src/core/gameObject.cpp.s
+.PHONY : src/core/gameObject.s
 
 # target to generate assembly for a file
-src/engine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/engine.cpp.s
-.PHONY : src/engine.cpp.s
+src/core/gameObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/gameObject.cpp.s
+.PHONY : src/core/gameObject.cpp.s
 
-src/gameObject.o: src/gameObject.cpp.o
-.PHONY : src/gameObject.o
+src/core/gameObjects/cubeObject.o: src/core/gameObjects/cubeObject.cpp.o
+.PHONY : src/core/gameObjects/cubeObject.o
 
 # target to build an object file
-src/gameObject.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/gameObject.cpp.o
-.PHONY : src/gameObject.cpp.o
+src/core/gameObjects/cubeObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/gameObjects/cubeObject.cpp.o
+.PHONY : src/core/gameObjects/cubeObject.cpp.o
 
-src/gameObject.i: src/gameObject.cpp.i
-.PHONY : src/gameObject.i
+src/core/gameObjects/cubeObject.i: src/core/gameObjects/cubeObject.cpp.i
+.PHONY : src/core/gameObjects/cubeObject.i
 
 # target to preprocess a source file
-src/gameObject.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/gameObject.cpp.i
-.PHONY : src/gameObject.cpp.i
+src/core/gameObjects/cubeObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/gameObjects/cubeObject.cpp.i
+.PHONY : src/core/gameObjects/cubeObject.cpp.i
 
-src/gameObject.s: src/gameObject.cpp.s
-.PHONY : src/gameObject.s
+src/core/gameObjects/cubeObject.s: src/core/gameObjects/cubeObject.cpp.s
+.PHONY : src/core/gameObjects/cubeObject.s
 
 # target to generate assembly for a file
-src/gameObject.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/gameObject.cpp.s
-.PHONY : src/gameObject.cpp.s
+src/core/gameObjects/cubeObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/gameObjects/cubeObject.cpp.s
+.PHONY : src/core/gameObjects/cubeObject.cpp.s
 
-src/gameObjects/cubeObject.o: src/gameObjects/cubeObject.cpp.o
-.PHONY : src/gameObjects/cubeObject.o
+src/core/gameObjects/planeObject.o: src/core/gameObjects/planeObject.cpp.o
+.PHONY : src/core/gameObjects/planeObject.o
 
 # target to build an object file
-src/gameObjects/cubeObject.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/gameObjects/cubeObject.cpp.o
-.PHONY : src/gameObjects/cubeObject.cpp.o
+src/core/gameObjects/planeObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/gameObjects/planeObject.cpp.o
+.PHONY : src/core/gameObjects/planeObject.cpp.o
 
-src/gameObjects/cubeObject.i: src/gameObjects/cubeObject.cpp.i
-.PHONY : src/gameObjects/cubeObject.i
+src/core/gameObjects/planeObject.i: src/core/gameObjects/planeObject.cpp.i
+.PHONY : src/core/gameObjects/planeObject.i
 
 # target to preprocess a source file
-src/gameObjects/cubeObject.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/gameObjects/cubeObject.cpp.i
-.PHONY : src/gameObjects/cubeObject.cpp.i
+src/core/gameObjects/planeObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/gameObjects/planeObject.cpp.i
+.PHONY : src/core/gameObjects/planeObject.cpp.i
 
-src/gameObjects/cubeObject.s: src/gameObjects/cubeObject.cpp.s
-.PHONY : src/gameObjects/cubeObject.s
+src/core/gameObjects/planeObject.s: src/core/gameObjects/planeObject.cpp.s
+.PHONY : src/core/gameObjects/planeObject.s
 
 # target to generate assembly for a file
-src/gameObjects/cubeObject.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/gameObjects/cubeObject.cpp.s
-.PHONY : src/gameObjects/cubeObject.cpp.s
+src/core/gameObjects/planeObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/gameObjects/planeObject.cpp.s
+.PHONY : src/core/gameObjects/planeObject.cpp.s
 
-src/gameObjects/planeObject.o: src/gameObjects/planeObject.cpp.o
-.PHONY : src/gameObjects/planeObject.o
+src/core/main.o: src/core/main.cpp.o
+.PHONY : src/core/main.o
 
 # target to build an object file
-src/gameObjects/planeObject.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/gameObjects/planeObject.cpp.o
-.PHONY : src/gameObjects/planeObject.cpp.o
+src/core/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/main.cpp.o
+.PHONY : src/core/main.cpp.o
 
-src/gameObjects/planeObject.i: src/gameObjects/planeObject.cpp.i
-.PHONY : src/gameObjects/planeObject.i
+src/core/main.i: src/core/main.cpp.i
+.PHONY : src/core/main.i
 
 # target to preprocess a source file
-src/gameObjects/planeObject.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/gameObjects/planeObject.cpp.i
-.PHONY : src/gameObjects/planeObject.cpp.i
+src/core/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/main.cpp.i
+.PHONY : src/core/main.cpp.i
 
-src/gameObjects/planeObject.s: src/gameObjects/planeObject.cpp.s
-.PHONY : src/gameObjects/planeObject.s
+src/core/main.s: src/core/main.cpp.s
+.PHONY : src/core/main.s
 
 # target to generate assembly for a file
-src/gameObjects/planeObject.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/gameObjects/planeObject.cpp.s
-.PHONY : src/gameObjects/planeObject.cpp.s
+src/core/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/main.cpp.s
+.PHONY : src/core/main.cpp.s
 
-src/glad.o: src/glad.c.o
-.PHONY : src/glad.o
+src/core/player.o: src/core/player.cpp.o
+.PHONY : src/core/player.o
 
 # target to build an object file
-src/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/glad.c.o
-.PHONY : src/glad.c.o
+src/core/player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/player.cpp.o
+.PHONY : src/core/player.cpp.o
 
-src/glad.i: src/glad.c.i
-.PHONY : src/glad.i
+src/core/player.i: src/core/player.cpp.i
+.PHONY : src/core/player.i
 
 # target to preprocess a source file
-src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/glad.c.i
-.PHONY : src/glad.c.i
+src/core/player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/player.cpp.i
+.PHONY : src/core/player.cpp.i
 
-src/glad.s: src/glad.c.s
-.PHONY : src/glad.s
+src/core/player.s: src/core/player.cpp.s
+.PHONY : src/core/player.s
 
 # target to generate assembly for a file
-src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/glad.c.s
-.PHONY : src/glad.c.s
+src/core/player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/player.cpp.s
+.PHONY : src/core/player.cpp.s
 
-src/imgui/imgui.o: src/imgui/imgui.cpp.o
-.PHONY : src/imgui/imgui.o
+src/core/textureManager.o: src/core/textureManager.cpp.o
+.PHONY : src/core/textureManager.o
 
 # target to build an object file
-src/imgui/imgui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui.cpp.o
-.PHONY : src/imgui/imgui.cpp.o
+src/core/textureManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/textureManager.cpp.o
+.PHONY : src/core/textureManager.cpp.o
 
-src/imgui/imgui.i: src/imgui/imgui.cpp.i
-.PHONY : src/imgui/imgui.i
+src/core/textureManager.i: src/core/textureManager.cpp.i
+.PHONY : src/core/textureManager.i
 
 # target to preprocess a source file
-src/imgui/imgui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui.cpp.i
-.PHONY : src/imgui/imgui.cpp.i
+src/core/textureManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/textureManager.cpp.i
+.PHONY : src/core/textureManager.cpp.i
 
-src/imgui/imgui.s: src/imgui/imgui.cpp.s
-.PHONY : src/imgui/imgui.s
+src/core/textureManager.s: src/core/textureManager.cpp.s
+.PHONY : src/core/textureManager.s
 
 # target to generate assembly for a file
-src/imgui/imgui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui.cpp.s
-.PHONY : src/imgui/imgui.cpp.s
+src/core/textureManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/textureManager.cpp.s
+.PHONY : src/core/textureManager.cpp.s
 
-src/imgui/imgui_demo.o: src/imgui/imgui_demo.cpp.o
-.PHONY : src/imgui/imgui_demo.o
+src/essentials/glad.o: src/essentials/glad.c.o
+.PHONY : src/essentials/glad.o
 
 # target to build an object file
-src/imgui/imgui_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_demo.cpp.o
-.PHONY : src/imgui/imgui_demo.cpp.o
+src/essentials/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/essentials/glad.c.o
+.PHONY : src/essentials/glad.c.o
 
-src/imgui/imgui_demo.i: src/imgui/imgui_demo.cpp.i
-.PHONY : src/imgui/imgui_demo.i
+src/essentials/glad.i: src/essentials/glad.c.i
+.PHONY : src/essentials/glad.i
 
 # target to preprocess a source file
-src/imgui/imgui_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_demo.cpp.i
-.PHONY : src/imgui/imgui_demo.cpp.i
+src/essentials/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/essentials/glad.c.i
+.PHONY : src/essentials/glad.c.i
 
-src/imgui/imgui_demo.s: src/imgui/imgui_demo.cpp.s
-.PHONY : src/imgui/imgui_demo.s
+src/essentials/glad.s: src/essentials/glad.c.s
+.PHONY : src/essentials/glad.s
 
 # target to generate assembly for a file
-src/imgui/imgui_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_demo.cpp.s
-.PHONY : src/imgui/imgui_demo.cpp.s
+src/essentials/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/essentials/glad.c.s
+.PHONY : src/essentials/glad.c.s
 
-src/imgui/imgui_draw.o: src/imgui/imgui_draw.cpp.o
-.PHONY : src/imgui/imgui_draw.o
+src/essentials/stb_image.o: src/essentials/stb_image.cpp.o
+.PHONY : src/essentials/stb_image.o
 
 # target to build an object file
-src/imgui/imgui_draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_draw.cpp.o
-.PHONY : src/imgui/imgui_draw.cpp.o
+src/essentials/stb_image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/essentials/stb_image.cpp.o
+.PHONY : src/essentials/stb_image.cpp.o
 
-src/imgui/imgui_draw.i: src/imgui/imgui_draw.cpp.i
-.PHONY : src/imgui/imgui_draw.i
+src/essentials/stb_image.i: src/essentials/stb_image.cpp.i
+.PHONY : src/essentials/stb_image.i
 
 # target to preprocess a source file
-src/imgui/imgui_draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_draw.cpp.i
-.PHONY : src/imgui/imgui_draw.cpp.i
+src/essentials/stb_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/essentials/stb_image.cpp.i
+.PHONY : src/essentials/stb_image.cpp.i
 
-src/imgui/imgui_draw.s: src/imgui/imgui_draw.cpp.s
-.PHONY : src/imgui/imgui_draw.s
+src/essentials/stb_image.s: src/essentials/stb_image.cpp.s
+.PHONY : src/essentials/stb_image.s
 
 # target to generate assembly for a file
-src/imgui/imgui_draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_draw.cpp.s
-.PHONY : src/imgui/imgui_draw.cpp.s
+src/essentials/stb_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/essentials/stb_image.cpp.s
+.PHONY : src/essentials/stb_image.cpp.s
 
-src/imgui/imgui_impl_glfw.o: src/imgui/imgui_impl_glfw.cpp.o
-.PHONY : src/imgui/imgui_impl_glfw.o
+src/graphics/shader.o: src/graphics/shader.cpp.o
+.PHONY : src/graphics/shader.o
 
 # target to build an object file
-src/imgui/imgui_impl_glfw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_impl_glfw.cpp.o
-.PHONY : src/imgui/imgui_impl_glfw.cpp.o
+src/graphics/shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/graphics/shader.cpp.o
+.PHONY : src/graphics/shader.cpp.o
 
-src/imgui/imgui_impl_glfw.i: src/imgui/imgui_impl_glfw.cpp.i
-.PHONY : src/imgui/imgui_impl_glfw.i
+src/graphics/shader.i: src/graphics/shader.cpp.i
+.PHONY : src/graphics/shader.i
 
 # target to preprocess a source file
-src/imgui/imgui_impl_glfw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_impl_glfw.cpp.i
-.PHONY : src/imgui/imgui_impl_glfw.cpp.i
+src/graphics/shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/graphics/shader.cpp.i
+.PHONY : src/graphics/shader.cpp.i
 
-src/imgui/imgui_impl_glfw.s: src/imgui/imgui_impl_glfw.cpp.s
-.PHONY : src/imgui/imgui_impl_glfw.s
+src/graphics/shader.s: src/graphics/shader.cpp.s
+.PHONY : src/graphics/shader.s
 
 # target to generate assembly for a file
-src/imgui/imgui_impl_glfw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_impl_glfw.cpp.s
-.PHONY : src/imgui/imgui_impl_glfw.cpp.s
+src/graphics/shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/graphics/shader.cpp.s
+.PHONY : src/graphics/shader.cpp.s
 
-src/imgui/imgui_impl_opengl3.o: src/imgui/imgui_impl_opengl3.cpp.o
-.PHONY : src/imgui/imgui_impl_opengl3.o
+src/ui/UI.o: src/ui/UI.cpp.o
+.PHONY : src/ui/UI.o
 
 # target to build an object file
-src/imgui/imgui_impl_opengl3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_impl_opengl3.cpp.o
-.PHONY : src/imgui/imgui_impl_opengl3.cpp.o
+src/ui/UI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/UI.cpp.o
+.PHONY : src/ui/UI.cpp.o
 
-src/imgui/imgui_impl_opengl3.i: src/imgui/imgui_impl_opengl3.cpp.i
-.PHONY : src/imgui/imgui_impl_opengl3.i
+src/ui/UI.i: src/ui/UI.cpp.i
+.PHONY : src/ui/UI.i
 
 # target to preprocess a source file
-src/imgui/imgui_impl_opengl3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_impl_opengl3.cpp.i
-.PHONY : src/imgui/imgui_impl_opengl3.cpp.i
+src/ui/UI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/UI.cpp.i
+.PHONY : src/ui/UI.cpp.i
 
-src/imgui/imgui_impl_opengl3.s: src/imgui/imgui_impl_opengl3.cpp.s
-.PHONY : src/imgui/imgui_impl_opengl3.s
+src/ui/UI.s: src/ui/UI.cpp.s
+.PHONY : src/ui/UI.s
 
 # target to generate assembly for a file
-src/imgui/imgui_impl_opengl3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_impl_opengl3.cpp.s
-.PHONY : src/imgui/imgui_impl_opengl3.cpp.s
+src/ui/UI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/UI.cpp.s
+.PHONY : src/ui/UI.cpp.s
 
-src/imgui/imgui_tables.o: src/imgui/imgui_tables.cpp.o
-.PHONY : src/imgui/imgui_tables.o
+src/ui/imgui/imgui.o: src/ui/imgui/imgui.cpp.o
+.PHONY : src/ui/imgui/imgui.o
 
 # target to build an object file
-src/imgui/imgui_tables.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_tables.cpp.o
-.PHONY : src/imgui/imgui_tables.cpp.o
+src/ui/imgui/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui.cpp.o
+.PHONY : src/ui/imgui/imgui.cpp.o
 
-src/imgui/imgui_tables.i: src/imgui/imgui_tables.cpp.i
-.PHONY : src/imgui/imgui_tables.i
+src/ui/imgui/imgui.i: src/ui/imgui/imgui.cpp.i
+.PHONY : src/ui/imgui/imgui.i
 
 # target to preprocess a source file
-src/imgui/imgui_tables.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_tables.cpp.i
-.PHONY : src/imgui/imgui_tables.cpp.i
+src/ui/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui.cpp.i
+.PHONY : src/ui/imgui/imgui.cpp.i
 
-src/imgui/imgui_tables.s: src/imgui/imgui_tables.cpp.s
-.PHONY : src/imgui/imgui_tables.s
+src/ui/imgui/imgui.s: src/ui/imgui/imgui.cpp.s
+.PHONY : src/ui/imgui/imgui.s
 
 # target to generate assembly for a file
-src/imgui/imgui_tables.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_tables.cpp.s
-.PHONY : src/imgui/imgui_tables.cpp.s
+src/ui/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui.cpp.s
+.PHONY : src/ui/imgui/imgui.cpp.s
 
-src/imgui/imgui_widgets.o: src/imgui/imgui_widgets.cpp.o
-.PHONY : src/imgui/imgui_widgets.o
+src/ui/imgui/imgui_demo.o: src/ui/imgui/imgui_demo.cpp.o
+.PHONY : src/ui/imgui/imgui_demo.o
 
 # target to build an object file
-src/imgui/imgui_widgets.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_widgets.cpp.o
-.PHONY : src/imgui/imgui_widgets.cpp.o
+src/ui/imgui/imgui_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_demo.cpp.o
+.PHONY : src/ui/imgui/imgui_demo.cpp.o
 
-src/imgui/imgui_widgets.i: src/imgui/imgui_widgets.cpp.i
-.PHONY : src/imgui/imgui_widgets.i
+src/ui/imgui/imgui_demo.i: src/ui/imgui/imgui_demo.cpp.i
+.PHONY : src/ui/imgui/imgui_demo.i
 
 # target to preprocess a source file
-src/imgui/imgui_widgets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_widgets.cpp.i
-.PHONY : src/imgui/imgui_widgets.cpp.i
+src/ui/imgui/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_demo.cpp.i
+.PHONY : src/ui/imgui/imgui_demo.cpp.i
 
-src/imgui/imgui_widgets.s: src/imgui/imgui_widgets.cpp.s
-.PHONY : src/imgui/imgui_widgets.s
+src/ui/imgui/imgui_demo.s: src/ui/imgui/imgui_demo.cpp.s
+.PHONY : src/ui/imgui/imgui_demo.s
 
 # target to generate assembly for a file
-src/imgui/imgui_widgets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/imgui/imgui_widgets.cpp.s
-.PHONY : src/imgui/imgui_widgets.cpp.s
+src/ui/imgui/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_demo.cpp.s
+.PHONY : src/ui/imgui/imgui_demo.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/ui/imgui/imgui_draw.o: src/ui/imgui/imgui_draw.cpp.o
+.PHONY : src/ui/imgui/imgui_draw.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/ui/imgui/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_draw.cpp.o
+.PHONY : src/ui/imgui/imgui_draw.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/ui/imgui/imgui_draw.i: src/ui/imgui/imgui_draw.cpp.i
+.PHONY : src/ui/imgui/imgui_draw.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/ui/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_draw.cpp.i
+.PHONY : src/ui/imgui/imgui_draw.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/ui/imgui/imgui_draw.s: src/ui/imgui/imgui_draw.cpp.s
+.PHONY : src/ui/imgui/imgui_draw.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/ui/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_draw.cpp.s
+.PHONY : src/ui/imgui/imgui_draw.cpp.s
 
-src/player.o: src/player.cpp.o
-.PHONY : src/player.o
+src/ui/imgui/imgui_impl_glfw.o: src/ui/imgui/imgui_impl_glfw.cpp.o
+.PHONY : src/ui/imgui/imgui_impl_glfw.o
 
 # target to build an object file
-src/player.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/player.cpp.o
-.PHONY : src/player.cpp.o
+src/ui/imgui/imgui_impl_glfw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_glfw.cpp.o
+.PHONY : src/ui/imgui/imgui_impl_glfw.cpp.o
 
-src/player.i: src/player.cpp.i
-.PHONY : src/player.i
+src/ui/imgui/imgui_impl_glfw.i: src/ui/imgui/imgui_impl_glfw.cpp.i
+.PHONY : src/ui/imgui/imgui_impl_glfw.i
 
 # target to preprocess a source file
-src/player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/player.cpp.i
-.PHONY : src/player.cpp.i
+src/ui/imgui/imgui_impl_glfw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_glfw.cpp.i
+.PHONY : src/ui/imgui/imgui_impl_glfw.cpp.i
 
-src/player.s: src/player.cpp.s
-.PHONY : src/player.s
+src/ui/imgui/imgui_impl_glfw.s: src/ui/imgui/imgui_impl_glfw.cpp.s
+.PHONY : src/ui/imgui/imgui_impl_glfw.s
 
 # target to generate assembly for a file
-src/player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/player.cpp.s
-.PHONY : src/player.cpp.s
+src/ui/imgui/imgui_impl_glfw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_glfw.cpp.s
+.PHONY : src/ui/imgui/imgui_impl_glfw.cpp.s
 
-src/shader.o: src/shader.cpp.o
-.PHONY : src/shader.o
+src/ui/imgui/imgui_impl_opengl3.o: src/ui/imgui/imgui_impl_opengl3.cpp.o
+.PHONY : src/ui/imgui/imgui_impl_opengl3.o
 
 # target to build an object file
-src/shader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/shader.cpp.o
-.PHONY : src/shader.cpp.o
+src/ui/imgui/imgui_impl_opengl3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_opengl3.cpp.o
+.PHONY : src/ui/imgui/imgui_impl_opengl3.cpp.o
 
-src/shader.i: src/shader.cpp.i
-.PHONY : src/shader.i
+src/ui/imgui/imgui_impl_opengl3.i: src/ui/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : src/ui/imgui/imgui_impl_opengl3.i
 
 # target to preprocess a source file
-src/shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/shader.cpp.i
-.PHONY : src/shader.cpp.i
+src/ui/imgui/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : src/ui/imgui/imgui_impl_opengl3.cpp.i
 
-src/shader.s: src/shader.cpp.s
-.PHONY : src/shader.s
+src/ui/imgui/imgui_impl_opengl3.s: src/ui/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : src/ui/imgui/imgui_impl_opengl3.s
 
 # target to generate assembly for a file
-src/shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/shader.cpp.s
-.PHONY : src/shader.cpp.s
+src/ui/imgui/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : src/ui/imgui/imgui_impl_opengl3.cpp.s
 
-src/stb_image.o: src/stb_image.cpp.o
-.PHONY : src/stb_image.o
+src/ui/imgui/imgui_tables.o: src/ui/imgui/imgui_tables.cpp.o
+.PHONY : src/ui/imgui/imgui_tables.o
 
 # target to build an object file
-src/stb_image.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/stb_image.cpp.o
-.PHONY : src/stb_image.cpp.o
+src/ui/imgui/imgui_tables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_tables.cpp.o
+.PHONY : src/ui/imgui/imgui_tables.cpp.o
 
-src/stb_image.i: src/stb_image.cpp.i
-.PHONY : src/stb_image.i
+src/ui/imgui/imgui_tables.i: src/ui/imgui/imgui_tables.cpp.i
+.PHONY : src/ui/imgui/imgui_tables.i
 
 # target to preprocess a source file
-src/stb_image.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/stb_image.cpp.i
-.PHONY : src/stb_image.cpp.i
+src/ui/imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_tables.cpp.i
+.PHONY : src/ui/imgui/imgui_tables.cpp.i
 
-src/stb_image.s: src/stb_image.cpp.s
-.PHONY : src/stb_image.s
+src/ui/imgui/imgui_tables.s: src/ui/imgui/imgui_tables.cpp.s
+.PHONY : src/ui/imgui/imgui_tables.s
 
 # target to generate assembly for a file
-src/stb_image.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/stb_image.cpp.s
-.PHONY : src/stb_image.cpp.s
+src/ui/imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_tables.cpp.s
+.PHONY : src/ui/imgui/imgui_tables.cpp.s
 
-src/textureManager.o: src/textureManager.cpp.o
-.PHONY : src/textureManager.o
+src/ui/imgui/imgui_widgets.o: src/ui/imgui/imgui_widgets.cpp.o
+.PHONY : src/ui/imgui/imgui_widgets.o
 
 # target to build an object file
-src/textureManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/textureManager.cpp.o
-.PHONY : src/textureManager.cpp.o
+src/ui/imgui/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_widgets.cpp.o
+.PHONY : src/ui/imgui/imgui_widgets.cpp.o
 
-src/textureManager.i: src/textureManager.cpp.i
-.PHONY : src/textureManager.i
+src/ui/imgui/imgui_widgets.i: src/ui/imgui/imgui_widgets.cpp.i
+.PHONY : src/ui/imgui/imgui_widgets.i
 
 # target to preprocess a source file
-src/textureManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/textureManager.cpp.i
-.PHONY : src/textureManager.cpp.i
+src/ui/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_widgets.cpp.i
+.PHONY : src/ui/imgui/imgui_widgets.cpp.i
 
-src/textureManager.s: src/textureManager.cpp.s
-.PHONY : src/textureManager.s
+src/ui/imgui/imgui_widgets.s: src/ui/imgui/imgui_widgets.cpp.s
+.PHONY : src/ui/imgui/imgui_widgets.s
 
 # target to generate assembly for a file
-src/textureManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/textureManager.cpp.s
-.PHONY : src/textureManager.cpp.s
+src/ui/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/ui/imgui/imgui_widgets.cpp.s
+.PHONY : src/ui/imgui/imgui_widgets.cpp.s
 
 # Help Target
 help:
@@ -594,63 +594,63 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... engine"
-	@echo "... src/UI.o"
-	@echo "... src/UI.i"
-	@echo "... src/UI.s"
-	@echo "... src/camera.o"
-	@echo "... src/camera.i"
-	@echo "... src/camera.s"
-	@echo "... src/engine.o"
-	@echo "... src/engine.i"
-	@echo "... src/engine.s"
-	@echo "... src/gameObject.o"
-	@echo "... src/gameObject.i"
-	@echo "... src/gameObject.s"
-	@echo "... src/gameObjects/cubeObject.o"
-	@echo "... src/gameObjects/cubeObject.i"
-	@echo "... src/gameObjects/cubeObject.s"
-	@echo "... src/gameObjects/planeObject.o"
-	@echo "... src/gameObjects/planeObject.i"
-	@echo "... src/gameObjects/planeObject.s"
-	@echo "... src/glad.o"
-	@echo "... src/glad.i"
-	@echo "... src/glad.s"
-	@echo "... src/imgui/imgui.o"
-	@echo "... src/imgui/imgui.i"
-	@echo "... src/imgui/imgui.s"
-	@echo "... src/imgui/imgui_demo.o"
-	@echo "... src/imgui/imgui_demo.i"
-	@echo "... src/imgui/imgui_demo.s"
-	@echo "... src/imgui/imgui_draw.o"
-	@echo "... src/imgui/imgui_draw.i"
-	@echo "... src/imgui/imgui_draw.s"
-	@echo "... src/imgui/imgui_impl_glfw.o"
-	@echo "... src/imgui/imgui_impl_glfw.i"
-	@echo "... src/imgui/imgui_impl_glfw.s"
-	@echo "... src/imgui/imgui_impl_opengl3.o"
-	@echo "... src/imgui/imgui_impl_opengl3.i"
-	@echo "... src/imgui/imgui_impl_opengl3.s"
-	@echo "... src/imgui/imgui_tables.o"
-	@echo "... src/imgui/imgui_tables.i"
-	@echo "... src/imgui/imgui_tables.s"
-	@echo "... src/imgui/imgui_widgets.o"
-	@echo "... src/imgui/imgui_widgets.i"
-	@echo "... src/imgui/imgui_widgets.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
-	@echo "... src/player.o"
-	@echo "... src/player.i"
-	@echo "... src/player.s"
-	@echo "... src/shader.o"
-	@echo "... src/shader.i"
-	@echo "... src/shader.s"
-	@echo "... src/stb_image.o"
-	@echo "... src/stb_image.i"
-	@echo "... src/stb_image.s"
-	@echo "... src/textureManager.o"
-	@echo "... src/textureManager.i"
-	@echo "... src/textureManager.s"
+	@echo "... src/core/camera.o"
+	@echo "... src/core/camera.i"
+	@echo "... src/core/camera.s"
+	@echo "... src/core/engine.o"
+	@echo "... src/core/engine.i"
+	@echo "... src/core/engine.s"
+	@echo "... src/core/gameObject.o"
+	@echo "... src/core/gameObject.i"
+	@echo "... src/core/gameObject.s"
+	@echo "... src/core/gameObjects/cubeObject.o"
+	@echo "... src/core/gameObjects/cubeObject.i"
+	@echo "... src/core/gameObjects/cubeObject.s"
+	@echo "... src/core/gameObjects/planeObject.o"
+	@echo "... src/core/gameObjects/planeObject.i"
+	@echo "... src/core/gameObjects/planeObject.s"
+	@echo "... src/core/main.o"
+	@echo "... src/core/main.i"
+	@echo "... src/core/main.s"
+	@echo "... src/core/player.o"
+	@echo "... src/core/player.i"
+	@echo "... src/core/player.s"
+	@echo "... src/core/textureManager.o"
+	@echo "... src/core/textureManager.i"
+	@echo "... src/core/textureManager.s"
+	@echo "... src/essentials/glad.o"
+	@echo "... src/essentials/glad.i"
+	@echo "... src/essentials/glad.s"
+	@echo "... src/essentials/stb_image.o"
+	@echo "... src/essentials/stb_image.i"
+	@echo "... src/essentials/stb_image.s"
+	@echo "... src/graphics/shader.o"
+	@echo "... src/graphics/shader.i"
+	@echo "... src/graphics/shader.s"
+	@echo "... src/ui/UI.o"
+	@echo "... src/ui/UI.i"
+	@echo "... src/ui/UI.s"
+	@echo "... src/ui/imgui/imgui.o"
+	@echo "... src/ui/imgui/imgui.i"
+	@echo "... src/ui/imgui/imgui.s"
+	@echo "... src/ui/imgui/imgui_demo.o"
+	@echo "... src/ui/imgui/imgui_demo.i"
+	@echo "... src/ui/imgui/imgui_demo.s"
+	@echo "... src/ui/imgui/imgui_draw.o"
+	@echo "... src/ui/imgui/imgui_draw.i"
+	@echo "... src/ui/imgui/imgui_draw.s"
+	@echo "... src/ui/imgui/imgui_impl_glfw.o"
+	@echo "... src/ui/imgui/imgui_impl_glfw.i"
+	@echo "... src/ui/imgui/imgui_impl_glfw.s"
+	@echo "... src/ui/imgui/imgui_impl_opengl3.o"
+	@echo "... src/ui/imgui/imgui_impl_opengl3.i"
+	@echo "... src/ui/imgui/imgui_impl_opengl3.s"
+	@echo "... src/ui/imgui/imgui_tables.o"
+	@echo "... src/ui/imgui/imgui_tables.i"
+	@echo "... src/ui/imgui/imgui_tables.s"
+	@echo "... src/ui/imgui/imgui_widgets.o"
+	@echo "... src/ui/imgui/imgui_widgets.i"
+	@echo "... src/ui/imgui/imgui_widgets.s"
 .PHONY : help
 
 
