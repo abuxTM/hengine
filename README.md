@@ -5,7 +5,10 @@ Very simple (in development)
 # Dependencies
 **Archlinux**
 ```
-sudo pacman -Sy glfw imgui assimp
+sudo pacman -Sy glfw assimp
+```
+```
+yay -Sy imgui
 ```
 
 **Windows**
