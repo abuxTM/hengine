@@ -3,16 +3,19 @@
 
 #include <glad.h>
 #include <GLFW/glfw3.h>
-#include <iostream>
 #include <vector>
+#include <iostream>
 
 #include <shader.h>
 #include <textureManager.h>
 #include <UI.h>
+#include <ECS.h>
+#include <transformComponent.h>
 #include <skybox.h>
 #include <player.h>
 #include <cubeObject.h>
-#include <planeObject.h>
+#include <entity.h>
+#include <entityManager.h>
 
 class Engine {
 public:
@@ -33,6 +36,7 @@ private:
 
   // Instance
   TextureManager* textureManager = nullptr;
+  EntityManager* entityManager = nullptr;
   UI* ui = nullptr;
   Player* player = nullptr;
   GameObject* lightcube = nullptr;

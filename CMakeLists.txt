@@ -21,6 +21,7 @@ add_executable(engine ${SOURCES})
 
 # Include directories
 target_include_directories(engine PRIVATE
+  "include/components"
   "include/core"
   "include/core/gameObjects"
   "include/essentials"

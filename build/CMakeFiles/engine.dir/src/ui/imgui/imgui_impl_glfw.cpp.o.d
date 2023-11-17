@@ -14,7 +14,7 @@ CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_glfw.cpp.o: \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
  /home/abux/Projects/c++/hengine/include/ui/imgui/imgui_impl_glfw.h \
- /usr/include/GLFW/glfw3.h \
+ /usr/local/include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/types.h \
  /usr/include/bits/typesizes.h /usr/include/bits/time64.h \

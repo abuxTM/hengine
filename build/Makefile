@@ -177,6 +177,30 @@ src/core/engine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/engine.cpp.s
 .PHONY : src/core/engine.cpp.s
 
+src/core/entityManager.o: src/core/entityManager.cpp.o
+.PHONY : src/core/entityManager.o
+
+# target to build an object file
+src/core/entityManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/entityManager.cpp.o
+.PHONY : src/core/entityManager.cpp.o
+
+src/core/entityManager.i: src/core/entityManager.cpp.i
+.PHONY : src/core/entityManager.i
+
+# target to preprocess a source file
+src/core/entityManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/entityManager.cpp.i
+.PHONY : src/core/entityManager.cpp.i
+
+src/core/entityManager.s: src/core/entityManager.cpp.s
+.PHONY : src/core/entityManager.s
+
+# target to generate assembly for a file
+src/core/entityManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/src/core/entityManager.cpp.s
+.PHONY : src/core/entityManager.cpp.s
+
 src/core/gameObject.o: src/core/gameObject.cpp.o
 .PHONY : src/core/gameObject.o
 
@@ -600,6 +624,9 @@ help:
 	@echo "... src/core/engine.o"
 	@echo "... src/core/engine.i"
 	@echo "... src/core/engine.s"
+	@echo "... src/core/entityManager.o"
+	@echo "... src/core/entityManager.i"
+	@echo "... src/core/entityManager.s"
 	@echo "... src/core/gameObject.o"
 	@echo "... src/core/gameObject.i"
 	@echo "... src/core/gameObject.s"

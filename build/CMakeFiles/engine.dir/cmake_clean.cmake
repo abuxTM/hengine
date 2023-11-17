@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/engine.dir/src/core/camera.cpp.o.d"
   "CMakeFiles/engine.dir/src/core/engine.cpp.o"
   "CMakeFiles/engine.dir/src/core/engine.cpp.o.d"
+  "CMakeFiles/engine.dir/src/core/entityManager.cpp.o"
+  "CMakeFiles/engine.dir/src/core/entityManager.cpp.o.d"
   "CMakeFiles/engine.dir/src/core/gameObject.cpp.o"
   "CMakeFiles/engine.dir/src/core/gameObject.cpp.o.d"
   "CMakeFiles/engine.dir/src/core/gameObjects/cubeObject.cpp.o"
