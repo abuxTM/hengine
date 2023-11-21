@@ -236,7 +236,7 @@ CMakeFiles/engine.dir/src/core/camera.cpp.o: \
  /usr/include/c++/13.2.1/tuple \
  /home/abux/Projects/c++/hengine/include/core/gameObjects/cubeObject.h \
  /home/abux/Projects/c++/hengine/include/essentials/glad/glad.h \
- /usr/local/include/GLFW/glfw3.h /usr/include/c++/13.2.1/iostream \
+ /usr/include/GLFW/glfw3.h /usr/include/c++/13.2.1/iostream \
  /usr/include/c++/13.2.1/ostream /usr/include/c++/13.2.1/ios \
  /usr/include/c++/13.2.1/iosfwd /usr/include/c++/13.2.1/bits/stringfwd.h \
  /usr/include/c++/13.2.1/bits/postypes.h /usr/include/c++/13.2.1/cwchar \
@@ -337,6 +337,7 @@ CMakeFiles/engine.dir/src/core/camera.cpp.o: \
  /usr/include/c++/13.2.1/cstring /usr/include/string.h \
  /usr/include/strings.h /usr/include/glm/gtc/type_ptr.inl \
  /home/abux/Projects/c++/hengine/include/core/gameObject.h \
+ /home/abux/Projects/c++/hengine/include/components/transformComponent.h \
  /home/abux/Projects/c++/hengine/include/graphics/shader.h \
  /usr/include/c++/13.2.1/fstream /usr/include/c++/13.2.1/bits/codecvt.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \

@@ -21,9 +21,9 @@ public:
 
       // Save each CubeObject
       for (const CubeObject* obj : gameObjects) {
-        outFile.write(reinterpret_cast<const char*>(&obj->pos), sizeof(glm::vec3));
-        outFile.write(reinterpret_cast<const char*>(&obj->rot), sizeof(glm::vec3));
-        outFile.write(reinterpret_cast<const char*>(&obj->size), sizeof(glm::vec3));
+        outFile.write(reinterpret_cast<const char*>(&obj->transform->position), sizeof(glm::vec3));
+        outFile.write(reinterpret_cast<const char*>(&obj->transform->rotation), sizeof(glm::vec3));
+        outFile.write(reinterpret_cast<const char*>(&obj->transform->scale), sizeof(glm::vec3));
         outFile.write(reinterpret_cast<const char*>(&obj->texture1), sizeof(unsigned int));
         outFile.write(reinterpret_cast<const char*>(&obj->texture2), sizeof(unsigned int));
       }
@@ -54,8 +54,8 @@ public:
             
         CubeObject* obj = new CubeObject(objectPos, GameObject::TEXTURED);
         obj->setTexture(objectTex1, objectTex2);
-        obj->rot = objectRot;
-        obj->size = objectSize;
+        obj->transform->rotation = objectRot;
+        obj->transform->scale = objectSize;
         gameObjects.push_back(obj);
       }
       std::cout << "Scene loaded from file: " << fileName << std::endl;

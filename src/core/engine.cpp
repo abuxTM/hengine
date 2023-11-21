@@ -38,7 +38,7 @@ Engine::Engine(int swidth, int sheight) {
   // OPENGL Config
   glEnable(GL_DEPTH_TEST);
   glEnable(GL_MULTISAMPLE);
-  //glEnable(GL_CULL_FACE);
+  glEnable(GL_CULL_FACE);
 
   ui = new UI(window);
 
@@ -48,7 +48,6 @@ Engine::Engine(int swidth, int sheight) {
   skybox = new Skybox(textureManager->skyboxFaces);
 
   // Load some cool stuff
-  entityManager = new EntityManager();
   player = new Player(glm::vec3(0.0f, 1.5f, 3.0f));
   lightPos = glm::vec3(12.0f, 4.0f, 12.0f);
   lightcube = new GameObject(lightPos, GameObject::LIGHTING);
@@ -70,7 +69,6 @@ void Engine::update() {
 
   // IT does exactly what you think it does
   player->update(deltaTime);
-  entityManager->update();
 }
 
 void Engine::inputs(GLFWwindow* window) {
@@ -108,18 +106,17 @@ void Engine::render() {
 
   // Render all of ur gameobjects that ur heart desires :)
   for (CubeObject* obj : gameobjects) { obj->render(player->cam->pos, lightPos, projection, view); }
-  entityManager->render();
   // Self explanatory
   if (skyboxEnabled) skybox->render(player->cam, projection, view);
 
   // Render some light represented by cube cos why not
   lightcube->render(player->cam->pos, lightPos, projection, view);
-  lightcube->pos = lightPos;
+  lightcube->transform->position = lightPos;
 
   // Create some shity ahh grid thing
   glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
   grid->render(player->cam->pos, lightPos, projection, view);
-  grid->size = glm::vec3(12, 0, 12);
+  grid->transform->scale = glm::vec3(12, 0, 12);
   glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
 
   // Check all events and swap buffers

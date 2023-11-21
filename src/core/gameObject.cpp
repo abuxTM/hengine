@@ -1,6 +1,6 @@
 #include <gameObject.h>
 
-GameObject::GameObject(glm::vec3 pos, ObjectShader objectShader) : pos(pos), objectShader(objectShader) {
+GameObject::GameObject(glm::vec3 pos, ObjectShader objectShader) : objectShader(objectShader) {
   if (objectShader == COLOR) { shader = new Shader("shaders/color_shader.vs", "shaders/color_shader.fs"); }
   else if (objectShader == TEXTURED) { shader = new Shader("shaders/shader.vs", "shaders/shader.fs"); }
   else if (objectShader == LIGHTING) { shader = new Shader("shaders/light_shader.vs", "shaders/light_shader.fs"); }
@@ -38,6 +38,8 @@ GameObject::GameObject(glm::vec3 pos, ObjectShader objectShader) : pos(pos), obj
     glVertexAttribPointer(2, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3 * sizeof(float)));
     glEnableVertexAttribArray(2);
   }
+
+  transform = new Transform();
 }
 
 void GameObject::render(glm::vec3 camPos, glm::vec3 lightPos, glm::mat4 projection, glm::mat4 view) {
@@ -68,32 +70,17 @@ void GameObject::render(glm::vec3 camPos, glm::vec3 lightPos, glm::mat4 projecti
   shader->setFloat("material.diffuse",   material.y);
   shader->setFloat("material.specular",  material.z);
   shader->setFloat("material.shininess", material.w);
+  shader->setVec3("skyColor",            glm::vec3(0.5f, 0.5f, 0.5f));
 
   // Render
   glBindVertexArray(VAO);
   glm::mat4 model = glm::mat4(1.0f);
   // GameObject position
-  model = glm::translate(model, pos);
-  model = glm::scale(model, size);
-  if (rot[0] != 0 || rot[1] != 0 || rot[2] != 0) model = glm::rotate(model, 1.0f, rot);
+  model = glm::translate(model, transform->position);
+  model = glm::scale(model, transform->scale);
+  //if (rot[0] != 0 || rot[1] != 0 || rot[2] != 0) model = glm::rotate(model, 1.0f, rot);
   shader->setMat4("model", model);
   glDrawArrays(GL_TRIANGLES, 0, 288);
-}
-
-bool GameObject::checkCollision(GameObject& other) {
-  bool collX = pos.x + size.x >= other.pos.x && other.pos.x + other.size.x >= pos.x;
-  bool collY = pos.y + size.y >= other.pos.y && other.pos.y + other.size.y >= pos.y;
-  bool collZ = pos.z + size.z >= other.pos.z && other.pos.z + other.size.z >= pos.z;
-
-  return collX && collY && collZ;
-}
-
-bool GameObject::checkCollision(glm::vec3& other, glm::vec3& otherSize) {
-  bool collX = pos.x + size.x >= other.x && other.x + otherSize.x >= pos.x;
-  bool collY = pos.y + size.y >= other.y && other.y + otherSize.y >= pos.y;
-  bool collZ = pos.z + size.z >= other.z && other.z + otherSize.z >= pos.z;
-
-  return collX && collY && collZ;
 }
 
 void GameObject::clean() {

@@ -158,7 +158,7 @@ CMakeFiles/engine.dir/src/ui/UI.cpp.o: \
  /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
- /usr/local/include/GLFW/glfw3.h /usr/include/glm/glm.hpp \
+ /usr/include/GLFW/glfw3.h /usr/include/glm/glm.hpp \
  /usr/include/glm/detail/_fixes.hpp /usr/include/c++/13.2.1/cmath \
  /usr/include/math.h /usr/include/bits/math-vector.h \
  /usr/include/bits/libm-simd-decl-stubs.h \
@@ -345,6 +345,7 @@ CMakeFiles/engine.dir/src/ui/UI.cpp.o: \
  /usr/include/glm/ext/vector_uint1_sized.hpp \
  /usr/include/c++/13.2.1/cstring /usr/include/glm/gtc/type_ptr.inl \
  /home/abux/Projects/c++/hengine/include/core/gameObject.h \
+ /home/abux/Projects/c++/hengine/include/components/transformComponent.h \
  /home/abux/Projects/c++/hengine/include/graphics/shader.h \
  /usr/include/c++/13.2.1/sstream /usr/include/c++/13.2.1/bits/sstream.tcc \
  /home/abux/Projects/c++/hengine/include/core/textureManager.h \

@@ -163,7 +163,7 @@ CMakeFiles/engine.dir/src/core/entityManager.cpp.o: \
  /usr/include/c++/13.2.1/bits/ostream.tcc /usr/include/c++/13.2.1/istream \
  /usr/include/c++/13.2.1/bits/istream.tcc /usr/include/c++/13.2.1/array \
  /usr/include/c++/13.2.1/compare /usr/include/c++/13.2.1/bitset \
- /home/abux/Projects/c++/hengine/include/core/component.h \
+ /home/abux/Projects/c++/hengine/include/components/component.h \
  /home/abux/Projects/c++/hengine/include/components/transformComponent.h \
  /usr/include/glm/glm.hpp /usr/include/glm/detail/_fixes.hpp \
  /usr/include/c++/13.2.1/cmath /usr/include/math.h \
@@ -305,4 +305,25 @@ CMakeFiles/engine.dir/src/core/entityManager.cpp.o: \
  /usr/include/glm/packing.hpp /usr/include/glm/detail/func_packing.inl \
  /usr/include/glm/detail/type_half.hpp \
  /usr/include/glm/detail/type_half.inl /usr/include/glm/integer.hpp \
- /usr/include/glm/detail/func_integer.inl
+ /usr/include/glm/detail/func_integer.inl \
+ /usr/include/glm/gtc/matrix_transform.hpp \
+ /usr/include/glm/ext/matrix_projection.hpp \
+ /usr/include/glm/gtc/constants.hpp \
+ /usr/include/glm/ext/scalar_constants.hpp \
+ /usr/include/glm/ext/scalar_constants.inl \
+ /usr/include/glm/gtc/constants.inl \
+ /usr/include/glm/ext/matrix_projection.inl \
+ /usr/include/glm/ext/matrix_clip_space.hpp \
+ /usr/include/glm/ext/matrix_clip_space.inl \
+ /usr/include/glm/ext/matrix_transform.hpp \
+ /usr/include/glm/ext/matrix_transform.inl \
+ /usr/include/glm/gtc/matrix_transform.inl \
+ /home/abux/Projects/c++/hengine/include/components/meshComponent.h \
+ /home/abux/Projects/c++/hengine/include/essentials/glad/glad.h \
+ /usr/include/KHR/khrplatform.h /usr/include/GLFW/glfw3.h \
+ /home/abux/Projects/c++/hengine/include/graphics/shader.h \
+ /usr/include/c++/13.2.1/fstream /usr/include/c++/13.2.1/bits/codecvt.h \
+ /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/13.2.1/bits/fstream.tcc /usr/include/c++/13.2.1/sstream \
+ /usr/include/c++/13.2.1/bits/sstream.tcc

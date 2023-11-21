@@ -13,7 +13,7 @@ CMakeFiles/engine.dir/src/core/engine.cpp.o: \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
- /usr/local/include/GLFW/glfw3.h \
+ /usr/include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h \
  /usr/include/c++/13.2.1/vector \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
@@ -352,29 +352,7 @@ CMakeFiles/engine.dir/src/core/engine.cpp.o: \
  /usr/include/glm/ext/vector_uint1_sized.hpp \
  /usr/include/c++/13.2.1/cstring /usr/include/glm/gtc/type_ptr.inl \
  /home/abux/Projects/c++/hengine/include/core/gameObject.h \
+ /home/abux/Projects/c++/hengine/include/components/transformComponent.h \
  /home/abux/Projects/c++/hengine/include/core/player.h \
  /home/abux/Projects/c++/hengine/include/core/camera.h \
- /home/abux/Projects/c++/hengine/include/core/ECS.h \
- /usr/include/c++/13.2.1/array /usr/include/c++/13.2.1/compare \
- /usr/include/c++/13.2.1/bitset \
- /home/abux/Projects/c++/hengine/include/components/transformComponent.h \
- /home/abux/Projects/c++/hengine/include/core/component.h \
- /home/abux/Projects/c++/hengine/include/graphics/skybox.h \
- /home/abux/Projects/c++/hengine/include/core/entity.h \
- /usr/include/c++/13.2.1/memory \
- /usr/include/c++/13.2.1/bits/stl_tempbuf.h \
- /usr/include/c++/13.2.1/bits/stl_raw_storage_iter.h \
- /usr/include/c++/13.2.1/bits/align.h \
- /usr/include/c++/13.2.1/bits/unique_ptr.h \
- /usr/include/c++/13.2.1/bits/shared_ptr.h \
- /usr/include/c++/13.2.1/bits/shared_ptr_base.h \
- /usr/include/c++/13.2.1/bits/allocated_ptr.h \
- /usr/include/c++/13.2.1/ext/aligned_buffer.h \
- /usr/include/c++/13.2.1/ext/concurrence.h \
- /usr/include/c++/13.2.1/bits/shared_ptr_atomic.h \
- /usr/include/c++/13.2.1/bits/atomic_base.h \
- /usr/include/c++/13.2.1/bits/atomic_lockfree_defines.h \
- /usr/include/c++/13.2.1/backward/auto_ptr.h \
- /usr/include/c++/13.2.1/pstl/glue_memory_defs.h \
- /usr/include/c++/13.2.1/pstl/execution_defs.h \
- /home/abux/Projects/c++/hengine/include/core/entityManager.h
+ /home/abux/Projects/c++/hengine/include/graphics/skybox.h

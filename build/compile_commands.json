@@ -13,12 +13,6 @@
 },
 {
   "directory": "/home/abux/Projects/c++/hengine/build",
-  "command": "/usr/bin/c++  -I/home/abux/Projects/c++/hengine/include/components -I/home/abux/Projects/c++/hengine/include/core -I/home/abux/Projects/c++/hengine/include/core/gameObjects -I/home/abux/Projects/c++/hengine/include/essentials -I/home/abux/Projects/c++/hengine/include/essentials/glad -I/home/abux/Projects/c++/hengine/include/graphics -I/home/abux/Projects/c++/hengine/include/ui -I/home/abux/Projects/c++/hengine/include/ui/imgui -I/home/abux/Projects/c++/hengine/include/glad -I/home/abux/Projects/c++/hengine/libs/glm -g -o CMakeFiles/engine.dir/src/core/entityManager.cpp.o -c /home/abux/Projects/c++/hengine/src/core/entityManager.cpp",
-  "file": "/home/abux/Projects/c++/hengine/src/core/entityManager.cpp",
-  "output": "CMakeFiles/engine.dir/src/core/entityManager.cpp.o"
-},
-{
-  "directory": "/home/abux/Projects/c++/hengine/build",
   "command": "/usr/bin/c++  -I/home/abux/Projects/c++/hengine/include/components -I/home/abux/Projects/c++/hengine/include/core -I/home/abux/Projects/c++/hengine/include/core/gameObjects -I/home/abux/Projects/c++/hengine/include/essentials -I/home/abux/Projects/c++/hengine/include/essentials/glad -I/home/abux/Projects/c++/hengine/include/graphics -I/home/abux/Projects/c++/hengine/include/ui -I/home/abux/Projects/c++/hengine/include/ui/imgui -I/home/abux/Projects/c++/hengine/include/glad -I/home/abux/Projects/c++/hengine/libs/glm -g -o CMakeFiles/engine.dir/src/core/gameObject.cpp.o -c /home/abux/Projects/c++/hengine/src/core/gameObject.cpp",
   "file": "/home/abux/Projects/c++/hengine/src/core/gameObject.cpp",
   "output": "CMakeFiles/engine.dir/src/core/gameObject.cpp.o"

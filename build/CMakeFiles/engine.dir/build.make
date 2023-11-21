@@ -97,24 +97,10 @@ CMakeFiles/engine.dir/src/core/engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/core/engine.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abux/Projects/c++/hengine/src/core/engine.cpp -o CMakeFiles/engine.dir/src/core/engine.cpp.s
 
-CMakeFiles/engine.dir/src/core/entityManager.cpp.o: CMakeFiles/engine.dir/flags.make
-CMakeFiles/engine.dir/src/core/entityManager.cpp.o: /home/abux/Projects/c++/hengine/src/core/entityManager.cpp
-CMakeFiles/engine.dir/src/core/entityManager.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/engine.dir/src/core/entityManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/core/entityManager.cpp.o -MF CMakeFiles/engine.dir/src/core/entityManager.cpp.o.d -o CMakeFiles/engine.dir/src/core/entityManager.cpp.o -c /home/abux/Projects/c++/hengine/src/core/entityManager.cpp
-
-CMakeFiles/engine.dir/src/core/entityManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine.dir/src/core/entityManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abux/Projects/c++/hengine/src/core/entityManager.cpp > CMakeFiles/engine.dir/src/core/entityManager.cpp.i
-
-CMakeFiles/engine.dir/src/core/entityManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine.dir/src/core/entityManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abux/Projects/c++/hengine/src/core/entityManager.cpp -o CMakeFiles/engine.dir/src/core/entityManager.cpp.s
-
 CMakeFiles/engine.dir/src/core/gameObject.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/core/gameObject.cpp.o: /home/abux/Projects/c++/hengine/src/core/gameObject.cpp
 CMakeFiles/engine.dir/src/core/gameObject.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/engine.dir/src/core/gameObject.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/engine.dir/src/core/gameObject.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/core/gameObject.cpp.o -MF CMakeFiles/engine.dir/src/core/gameObject.cpp.o.d -o CMakeFiles/engine.dir/src/core/gameObject.cpp.o -c /home/abux/Projects/c++/hengine/src/core/gameObject.cpp
 
 CMakeFiles/engine.dir/src/core/gameObject.cpp.i: cmake_force
@@ -128,7 +114,7 @@ CMakeFiles/engine.dir/src/core/gameObject.cpp.s: cmake_force
 CMakeFiles/engine.dir/src/core/gameObjects/cubeObject.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/core/gameObjects/cubeObject.cpp.o: /home/abux/Projects/c++/hengine/src/core/gameObjects/cubeObject.cpp
 CMakeFiles/engine.dir/src/core/gameObjects/cubeObject.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/engine.dir/src/core/gameObjects/cubeObject.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/engine.dir/src/core/gameObjects/cubeObject.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/core/gameObjects/cubeObject.cpp.o -MF CMakeFiles/engine.dir/src/core/gameObjects/cubeObject.cpp.o.d -o CMakeFiles/engine.dir/src/core/gameObjects/cubeObject.cpp.o -c /home/abux/Projects/c++/hengine/src/core/gameObjects/cubeObject.cpp
 
 CMakeFiles/engine.dir/src/core/gameObjects/cubeObject.cpp.i: cmake_force
@@ -142,7 +128,7 @@ CMakeFiles/engine.dir/src/core/gameObjects/cubeObject.cpp.s: cmake_force
 CMakeFiles/engine.dir/src/core/gameObjects/planeObject.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/core/gameObjects/planeObject.cpp.o: /home/abux/Projects/c++/hengine/src/core/gameObjects/planeObject.cpp
 CMakeFiles/engine.dir/src/core/gameObjects/planeObject.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/engine.dir/src/core/gameObjects/planeObject.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/engine.dir/src/core/gameObjects/planeObject.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/core/gameObjects/planeObject.cpp.o -MF CMakeFiles/engine.dir/src/core/gameObjects/planeObject.cpp.o.d -o CMakeFiles/engine.dir/src/core/gameObjects/planeObject.cpp.o -c /home/abux/Projects/c++/hengine/src/core/gameObjects/planeObject.cpp
 
 CMakeFiles/engine.dir/src/core/gameObjects/planeObject.cpp.i: cmake_force
@@ -156,7 +142,7 @@ CMakeFiles/engine.dir/src/core/gameObjects/planeObject.cpp.s: cmake_force
 CMakeFiles/engine.dir/src/core/main.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/core/main.cpp.o: /home/abux/Projects/c++/hengine/src/core/main.cpp
 CMakeFiles/engine.dir/src/core/main.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/engine.dir/src/core/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/engine.dir/src/core/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/core/main.cpp.o -MF CMakeFiles/engine.dir/src/core/main.cpp.o.d -o CMakeFiles/engine.dir/src/core/main.cpp.o -c /home/abux/Projects/c++/hengine/src/core/main.cpp
 
 CMakeFiles/engine.dir/src/core/main.cpp.i: cmake_force
@@ -170,7 +156,7 @@ CMakeFiles/engine.dir/src/core/main.cpp.s: cmake_force
 CMakeFiles/engine.dir/src/core/player.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/core/player.cpp.o: /home/abux/Projects/c++/hengine/src/core/player.cpp
 CMakeFiles/engine.dir/src/core/player.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/engine.dir/src/core/player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/engine.dir/src/core/player.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/core/player.cpp.o -MF CMakeFiles/engine.dir/src/core/player.cpp.o.d -o CMakeFiles/engine.dir/src/core/player.cpp.o -c /home/abux/Projects/c++/hengine/src/core/player.cpp
 
 CMakeFiles/engine.dir/src/core/player.cpp.i: cmake_force
@@ -184,7 +170,7 @@ CMakeFiles/engine.dir/src/core/player.cpp.s: cmake_force
 CMakeFiles/engine.dir/src/core/textureManager.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/core/textureManager.cpp.o: /home/abux/Projects/c++/hengine/src/core/textureManager.cpp
 CMakeFiles/engine.dir/src/core/textureManager.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/engine.dir/src/core/textureManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/engine.dir/src/core/textureManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/core/textureManager.cpp.o -MF CMakeFiles/engine.dir/src/core/textureManager.cpp.o.d -o CMakeFiles/engine.dir/src/core/textureManager.cpp.o -c /home/abux/Projects/c++/hengine/src/core/textureManager.cpp
 
 CMakeFiles/engine.dir/src/core/textureManager.cpp.i: cmake_force
@@ -198,7 +184,7 @@ CMakeFiles/engine.dir/src/core/textureManager.cpp.s: cmake_force
 CMakeFiles/engine.dir/src/essentials/glad.c.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/essentials/glad.c.o: /home/abux/Projects/c++/hengine/src/essentials/glad.c
 CMakeFiles/engine.dir/src/essentials/glad.c.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/engine.dir/src/essentials/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/engine.dir/src/essentials/glad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/engine.dir/src/essentials/glad.c.o -MF CMakeFiles/engine.dir/src/essentials/glad.c.o.d -o CMakeFiles/engine.dir/src/essentials/glad.c.o -c /home/abux/Projects/c++/hengine/src/essentials/glad.c
 
 CMakeFiles/engine.dir/src/essentials/glad.c.i: cmake_force
@@ -212,7 +198,7 @@ CMakeFiles/engine.dir/src/essentials/glad.c.s: cmake_force
 CMakeFiles/engine.dir/src/essentials/stb_image.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/essentials/stb_image.cpp.o: /home/abux/Projects/c++/hengine/src/essentials/stb_image.cpp
 CMakeFiles/engine.dir/src/essentials/stb_image.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/engine.dir/src/essentials/stb_image.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/engine.dir/src/essentials/stb_image.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/essentials/stb_image.cpp.o -MF CMakeFiles/engine.dir/src/essentials/stb_image.cpp.o.d -o CMakeFiles/engine.dir/src/essentials/stb_image.cpp.o -c /home/abux/Projects/c++/hengine/src/essentials/stb_image.cpp
 
 CMakeFiles/engine.dir/src/essentials/stb_image.cpp.i: cmake_force
@@ -226,7 +212,7 @@ CMakeFiles/engine.dir/src/essentials/stb_image.cpp.s: cmake_force
 CMakeFiles/engine.dir/src/graphics/shader.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/graphics/shader.cpp.o: /home/abux/Projects/c++/hengine/src/graphics/shader.cpp
 CMakeFiles/engine.dir/src/graphics/shader.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/engine.dir/src/graphics/shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/engine.dir/src/graphics/shader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/graphics/shader.cpp.o -MF CMakeFiles/engine.dir/src/graphics/shader.cpp.o.d -o CMakeFiles/engine.dir/src/graphics/shader.cpp.o -c /home/abux/Projects/c++/hengine/src/graphics/shader.cpp
 
 CMakeFiles/engine.dir/src/graphics/shader.cpp.i: cmake_force
@@ -240,7 +226,7 @@ CMakeFiles/engine.dir/src/graphics/shader.cpp.s: cmake_force
 CMakeFiles/engine.dir/src/ui/UI.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/ui/UI.cpp.o: /home/abux/Projects/c++/hengine/src/ui/UI.cpp
 CMakeFiles/engine.dir/src/ui/UI.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/engine.dir/src/ui/UI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/engine.dir/src/ui/UI.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/ui/UI.cpp.o -MF CMakeFiles/engine.dir/src/ui/UI.cpp.o.d -o CMakeFiles/engine.dir/src/ui/UI.cpp.o -c /home/abux/Projects/c++/hengine/src/ui/UI.cpp
 
 CMakeFiles/engine.dir/src/ui/UI.cpp.i: cmake_force
@@ -254,7 +240,7 @@ CMakeFiles/engine.dir/src/ui/UI.cpp.s: cmake_force
 CMakeFiles/engine.dir/src/ui/imgui/imgui.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/ui/imgui/imgui.cpp.o: /home/abux/Projects/c++/hengine/src/ui/imgui/imgui.cpp
 CMakeFiles/engine.dir/src/ui/imgui/imgui.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/engine.dir/src/ui/imgui/imgui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/engine.dir/src/ui/imgui/imgui.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/ui/imgui/imgui.cpp.o -MF CMakeFiles/engine.dir/src/ui/imgui/imgui.cpp.o.d -o CMakeFiles/engine.dir/src/ui/imgui/imgui.cpp.o -c /home/abux/Projects/c++/hengine/src/ui/imgui/imgui.cpp
 
 CMakeFiles/engine.dir/src/ui/imgui/imgui.cpp.i: cmake_force
@@ -268,7 +254,7 @@ CMakeFiles/engine.dir/src/ui/imgui/imgui.cpp.s: cmake_force
 CMakeFiles/engine.dir/src/ui/imgui/imgui_demo.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/ui/imgui/imgui_demo.cpp.o: /home/abux/Projects/c++/hengine/src/ui/imgui/imgui_demo.cpp
 CMakeFiles/engine.dir/src/ui/imgui/imgui_demo.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/engine.dir/src/ui/imgui/imgui_demo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/engine.dir/src/ui/imgui/imgui_demo.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/ui/imgui/imgui_demo.cpp.o -MF CMakeFiles/engine.dir/src/ui/imgui/imgui_demo.cpp.o.d -o CMakeFiles/engine.dir/src/ui/imgui/imgui_demo.cpp.o -c /home/abux/Projects/c++/hengine/src/ui/imgui/imgui_demo.cpp
 
 CMakeFiles/engine.dir/src/ui/imgui/imgui_demo.cpp.i: cmake_force
@@ -282,7 +268,7 @@ CMakeFiles/engine.dir/src/ui/imgui/imgui_demo.cpp.s: cmake_force
 CMakeFiles/engine.dir/src/ui/imgui/imgui_draw.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/ui/imgui/imgui_draw.cpp.o: /home/abux/Projects/c++/hengine/src/ui/imgui/imgui_draw.cpp
 CMakeFiles/engine.dir/src/ui/imgui/imgui_draw.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/engine.dir/src/ui/imgui/imgui_draw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/engine.dir/src/ui/imgui/imgui_draw.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/ui/imgui/imgui_draw.cpp.o -MF CMakeFiles/engine.dir/src/ui/imgui/imgui_draw.cpp.o.d -o CMakeFiles/engine.dir/src/ui/imgui/imgui_draw.cpp.o -c /home/abux/Projects/c++/hengine/src/ui/imgui/imgui_draw.cpp
 
 CMakeFiles/engine.dir/src/ui/imgui/imgui_draw.cpp.i: cmake_force
@@ -296,7 +282,7 @@ CMakeFiles/engine.dir/src/ui/imgui/imgui_draw.cpp.s: cmake_force
 CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_glfw.cpp.o: /home/abux/Projects/c++/hengine/src/ui/imgui/imgui_impl_glfw.cpp
 CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_glfw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_glfw.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_glfw.cpp.o -MF CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_glfw.cpp.o.d -o CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_glfw.cpp.o -c /home/abux/Projects/c++/hengine/src/ui/imgui/imgui_impl_glfw.cpp
 
 CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_glfw.cpp.i: cmake_force
@@ -310,7 +296,7 @@ CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_glfw.cpp.s: cmake_force
 CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_opengl3.cpp.o: /home/abux/Projects/c++/hengine/src/ui/imgui/imgui_impl_opengl3.cpp
 CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_opengl3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_opengl3.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_opengl3.cpp.o -MF CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_opengl3.cpp.o -c /home/abux/Projects/c++/hengine/src/ui/imgui/imgui_impl_opengl3.cpp
 
 CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_opengl3.cpp.i: cmake_force
@@ -324,7 +310,7 @@ CMakeFiles/engine.dir/src/ui/imgui/imgui_impl_opengl3.cpp.s: cmake_force
 CMakeFiles/engine.dir/src/ui/imgui/imgui_tables.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/ui/imgui/imgui_tables.cpp.o: /home/abux/Projects/c++/hengine/src/ui/imgui/imgui_tables.cpp
 CMakeFiles/engine.dir/src/ui/imgui/imgui_tables.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/engine.dir/src/ui/imgui/imgui_tables.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/engine.dir/src/ui/imgui/imgui_tables.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/ui/imgui/imgui_tables.cpp.o -MF CMakeFiles/engine.dir/src/ui/imgui/imgui_tables.cpp.o.d -o CMakeFiles/engine.dir/src/ui/imgui/imgui_tables.cpp.o -c /home/abux/Projects/c++/hengine/src/ui/imgui/imgui_tables.cpp
 
 CMakeFiles/engine.dir/src/ui/imgui/imgui_tables.cpp.i: cmake_force
@@ -338,7 +324,7 @@ CMakeFiles/engine.dir/src/ui/imgui/imgui_tables.cpp.s: cmake_force
 CMakeFiles/engine.dir/src/ui/imgui/imgui_widgets.cpp.o: CMakeFiles/engine.dir/flags.make
 CMakeFiles/engine.dir/src/ui/imgui/imgui_widgets.cpp.o: /home/abux/Projects/c++/hengine/src/ui/imgui/imgui_widgets.cpp
 CMakeFiles/engine.dir/src/ui/imgui/imgui_widgets.cpp.o: CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/engine.dir/src/ui/imgui/imgui_widgets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/engine.dir/src/ui/imgui/imgui_widgets.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/engine.dir/src/ui/imgui/imgui_widgets.cpp.o -MF CMakeFiles/engine.dir/src/ui/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/engine.dir/src/ui/imgui/imgui_widgets.cpp.o -c /home/abux/Projects/c++/hengine/src/ui/imgui/imgui_widgets.cpp
 
 CMakeFiles/engine.dir/src/ui/imgui/imgui_widgets.cpp.i: cmake_force
@@ -353,7 +339,6 @@ CMakeFiles/engine.dir/src/ui/imgui/imgui_widgets.cpp.s: cmake_force
 engine_OBJECTS = \
 "CMakeFiles/engine.dir/src/core/camera.cpp.o" \
 "CMakeFiles/engine.dir/src/core/engine.cpp.o" \
-"CMakeFiles/engine.dir/src/core/entityManager.cpp.o" \
 "CMakeFiles/engine.dir/src/core/gameObject.cpp.o" \
 "CMakeFiles/engine.dir/src/core/gameObjects/cubeObject.cpp.o" \
 "CMakeFiles/engine.dir/src/core/gameObjects/planeObject.cpp.o" \
@@ -377,7 +362,6 @@ engine_EXTERNAL_OBJECTS =
 
 engine: CMakeFiles/engine.dir/src/core/camera.cpp.o
 engine: CMakeFiles/engine.dir/src/core/engine.cpp.o
-engine: CMakeFiles/engine.dir/src/core/entityManager.cpp.o
 engine: CMakeFiles/engine.dir/src/core/gameObject.cpp.o
 engine: CMakeFiles/engine.dir/src/core/gameObjects/cubeObject.cpp.o
 engine: CMakeFiles/engine.dir/src/core/gameObjects/planeObject.cpp.o
@@ -397,7 +381,7 @@ engine: CMakeFiles/engine.dir/src/ui/imgui/imgui_tables.cpp.o
 engine: CMakeFiles/engine.dir/src/ui/imgui/imgui_widgets.cpp.o
 engine: CMakeFiles/engine.dir/build.make
 engine: CMakeFiles/engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/abux/Projects/c++/hengine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable engine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/engine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

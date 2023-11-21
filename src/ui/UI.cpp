@@ -91,18 +91,18 @@ void UI::inspectUI(TextureManager* textureManager, std::vector<CubeObject*>& gam
   if (objectSelected != -1) {
     ImGui::TextColored(ImVec4(0, 1, 1, 1), "Selected Object ID: %i", objectSelected);
     // Set position -----------------
-    glm::vec3 pos = gameobjects[objectSelected]->pos;
-    if (ImGui::InputFloat3("Position", glm::value_ptr(pos))) { gameobjects[objectSelected]->pos = pos; }
+    glm::vec3 pos = gameobjects[objectSelected]->transform->position;
+    if (ImGui::InputFloat3("Position", glm::value_ptr(pos))) { gameobjects[objectSelected]->transform->position = pos; }
     // Set position -----------------
 
     // Set rotation -----------------
-    glm::vec3 set_rot = gameobjects[objectSelected]->rot;
-    if (ImGui::InputFloat3("Rotation", glm::value_ptr(set_rot))) { gameobjects[objectSelected]->rot = set_rot; }
+    glm::vec3 set_rot = gameobjects[objectSelected]->transform->rotation;
+    if (ImGui::InputFloat3("Rotation", glm::value_ptr(set_rot))) { gameobjects[objectSelected]->transform->rotation = set_rot; }
     // Set rotation -----------------
 
     // Set size ---------------------
-    glm::vec3 size = gameobjects[objectSelected]->size;
-    if (ImGui::InputFloat3("Size", glm::value_ptr(size))) { gameobjects[objectSelected]->size = size; }
+    glm::vec3 size = gameobjects[objectSelected]->transform->scale;
+    if (ImGui::InputFloat3("Size", glm::value_ptr(size))) { gameobjects[objectSelected]->transform->scale = size; }
     // Set size ---------------------
 
     // Set material -----------------
@@ -146,8 +146,8 @@ void UI::inspectUI(TextureManager* textureManager, std::vector<CubeObject*>& gam
     if (ImGui::Button("Texture2")) gameobjects[objectSelected]->texture2 = seltex;
     }
   }
-  ImGui::End();
 
+  ImGui::End();
 }
 
 void UI::consoleUI() {
