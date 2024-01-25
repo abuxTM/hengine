@@ -11,12 +11,6 @@ sudo pacman -Sy glfw assimp
 yay -Sy imgui
 ```
 
-**Windows**
-> IDK
-
-**MAC**
-> IDK
-
 # Keybinds
 **Open UI**
 > Press TAB
